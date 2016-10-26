@@ -1,5 +1,5 @@
-package com.ironyard.data;
-
+package com.ironyard.dto;
+// dto means data transfer object
 /**
  * Created by nathanielellsworth on 10/26/16.
  */
@@ -20,9 +20,7 @@ public class FifaMatch {
     private int goals_against;
     private int goal_differential;
 
-    public int getId() {
-        return id;
-    }
+    public int getId() {return id;}
 
     public void setId(int id) {this.id = id;}
 
